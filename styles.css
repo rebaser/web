@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', 'Titillium Web', sans-serif;
+    list-style-type: none;
+    list-style-type: none;
+}
+
+#main {
+    color: #555;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.1em;
+}
+
+@media (min-width: 1200px) {
+    #main {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    ul {
+
+        list-style-type: circle;
+    }
+}
+
+section {
+    padding: 0.4em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px; margin-left: 0px;
+}
+
+#info {
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 180%;
+}
+
+#info .p1 {
+    font-size: 110%;
+    font-weight: bold;
+    color: #999999;
+}
+
+#logocontainer {
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.infobox {
+    border: 1px;
+    background-color: lightblue;
+}
+
+#boxrow {
+    margin-top: 20px;
+}
+
+#boxrow .well {
+    padding: 10px;
+    border: 0;
+}
+
+#footer {
+    text-align: center;
+}
